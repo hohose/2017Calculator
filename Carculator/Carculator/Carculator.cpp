@@ -22,17 +22,18 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	std::cout << "hello world" << std :: endl;
 
-	result = add(11, 11);
+	result = add(11, 10);
 	std::cout << "add=" << result << std::endl;
 
-	result = sub(11, 11);
+	result = sub(11, 10);
 	std::cout << "sub=" << result << std::endl;
 
-	result = mul(11, 11);
+	result = mul(11, 10);
 	std::cout << "mul=" << result << std::endl;
 	
-	result = div(11, 11);
+	result = div(11, 10);
 	std::cout << "div=" << result << std::endl;
+	//2017-05-23
 	
 	return 0;
 }
